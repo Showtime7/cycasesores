@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* --- Colores personalizados --- */
+:root {
+  --navy: #001f3f; /* Azul marino */
+  --sky: #0074d9; /* Azul brillante */
+}
+
+/* --- Animaciones personalizadas --- */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.animate-slide-down {
+  animation: slideDown 0.3s ease-out;
+}
+
+/* --- Estilos globales --- */
+body {
+  @apply bg-white text-[var(--navy)]; /* Usando el color personalizado */
+}
+
+/* Clases personalizadas para colores (opcional) */
+.bg-navy {
+  background-color: var(--navy);
+}
+
+.text-navy {
+  color: var(--navy);
+}
+
+.hover\:text-sky:hover {
+  color: var(--sky);
+}
