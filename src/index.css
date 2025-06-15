@@ -36,9 +36,6 @@
 }
 
 /* --- Estilos globales --- */
-body {
-  @apply bg-white text-[var(--navy)]; /* Usando el color personalizado */
-}
 
 /* Clases personalizadas para colores (opcional) */
 .bg-navy {
