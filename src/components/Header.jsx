@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import imagenLogo from "../assets/cycasesores2.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -48,7 +49,10 @@ const Header = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Cycasesores
+              <img
+                src={imagenLogo}
+                className="h-30 w-auto object-contain filter brightness-200"
+              />
             </motion.a>
           </div>
 
@@ -118,14 +122,14 @@ const Header = () => {
                   >
                     <motion.a
                       href="/asesoria-legal"
-                      className="block px-4 py-2 hover:bg-sky hover:text-white transition-colors"
+                      className="block px-4 py-2 hover:bg-sky hover:text-blue-700 transition-colors"
                       whileHover={{ x: 5 }}
                     >
                       Asesoría Legal
                     </motion.a>
                     <motion.a
                       href="/asesoria-inversiones"
-                      className="block px-4 py-2 hover:bg-sky hover:text-white transition-colors"
+                      className="block px-4 py-2 hover:bg-sky hover:text-blue-700 transition-colors"
                       whileHover={{ x: 5 }}
                     >
                       Asesoría en Inversiones
