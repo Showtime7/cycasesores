@@ -42,7 +42,7 @@ const ContactForm = () => {
     e.preventDefault();
     if (validateForm()) {
       setIsSubmitting(true);
-      // Aquí iría la lógica para enviar el formulario
+
       console.log("Formulario enviado:", formData);
       setTimeout(() => {
         setIsSubmitting(false);

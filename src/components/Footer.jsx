@@ -2,9 +2,8 @@ import { useEffect, useState } from "react";
 import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
-  const [ufValue, setUfValue] = useState("$36.000"); // Valor inicial aproximado
+  const [ufValue, setUfValue] = useState("$36.000");
 
-  // Función para obtener el valor actual de la UF (ejemplo con API de mindicador.cl)
   useEffect(() => {
     const fetchUfValue = async () => {
       try {

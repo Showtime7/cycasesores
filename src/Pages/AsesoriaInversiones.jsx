@@ -7,6 +7,7 @@ import {
   FaCheckCircle,
   FaPhone,
 } from "react-icons/fa";
+import imagenAsesoriaInversiones from "../assets/inversiones.jpg";
 
 const AsesoriaInversiones = () => {
   // Animaciones
@@ -61,7 +62,7 @@ const AsesoriaInversiones = () => {
       <section className="relative h-[50vh] min-h-[400px] w-full overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="" // Añade tu imagen aquí
+            src={imagenAsesoriaInversiones} // Añade tu imagen aquí
             alt="Asesoría en Inversiones"
             className="h-full w-full object-cover"
           />

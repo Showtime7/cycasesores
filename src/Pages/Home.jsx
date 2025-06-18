@@ -53,7 +53,6 @@ const Home = () => {
     <div className="relative">
       {/* Hero Section con imagen y overlay */}
       <section className="relative h-[70vh] max-h-[800px] min-h-[500px] w-full overflow-hidden">
-        {/* Imagen con blur - Reemplaza con tu imagen */}
         <div className="absolute inset-0">
           <img
             src={imagenHero}
@@ -94,7 +93,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Resto del contenido de la página puede ir aquí */}
       <section className="bg-white py-16">
         <div className="container mx-auto px-4">
           <h2 className="mb-12 text-center text-3xl font-bold text-gray-800">
@@ -110,10 +108,9 @@ const Home = () => {
       </section>
 
       <section className="relative h-[70vh] max-h-[800px] min-h-[600px] w-full overflow-hidden">
-        {/* Imagen de fondo - Tú la añadirás desde assets */}
         <div className="absolute inset-0">
           <img
-            src={imagenFondo} // Deja vacío para que añadas tu imagen
+            src={imagenFondo}
             alt="Equipo CyC Asesores"
             className="h-full w-full object-cover"
           />

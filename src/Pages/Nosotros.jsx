@@ -37,7 +37,7 @@ export const Nosotros = () => {
       <section className="relative h-[50vh] min-h-[400px] w-full overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src={imagenQuienesSomos} // Añade tu imagen aquí
+            src={imagenQuienesSomos}
             alt="Equipo CyC Asesores"
             className="h-full w-full object-cover"
           />
@@ -111,7 +111,7 @@ export const Nosotros = () => {
       {/* Banner */}
       <div className="relative h-[40vh] min-h-[300px] w-full overflow-hidden">
         <img
-          src={imagenServicios} // Añade tu imagen de banner aquí
+          src={imagenServicios}
           alt="Nuestro equipo"
           className="h-full w-full object-cover"
         />

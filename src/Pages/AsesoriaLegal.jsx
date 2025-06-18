@@ -8,6 +8,7 @@ import {
   FaHandshake,
   FaClipboardCheck,
 } from "react-icons/fa";
+import imagenAsesoriaLegal from "../assets/legal.jpg";
 
 const AsesoriaLegal = () => {
   // Animaciones
@@ -74,7 +75,7 @@ const AsesoriaLegal = () => {
       <section className="relative h-[50vh] min-h-[400px] w-full overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="" // Añade tu imagen aquí
+            src={imagenAsesoriaLegal}
             alt="Asesoría Legal CyC"
             className="h-full w-full object-cover"
           />
@@ -184,15 +185,7 @@ const AsesoriaLegal = () => {
             viewport={{ once: true }}
             variants={fadeIn}
             className="mt-16"
-          >
-            <div className="overflow-hidden rounded-xl shadow-xl">
-              <img
-                src="" // Añade tu imagen aquí
-                alt="Proceso de remates judiciales"
-                className="h-auto w-full object-cover"
-              />
-            </div>
-          </motion.div>
+          ></motion.div>
         </div>
       </section>
     </div>

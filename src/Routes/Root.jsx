@@ -8,7 +8,7 @@ export default function Root() {
       <Header />
 
       <main className="flex-grow">
-        <Outlet /> {/* Contenido de las páginas */}
+        <Outlet />
       </main>
 
       <Footer />
